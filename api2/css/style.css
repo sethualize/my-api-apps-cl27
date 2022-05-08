@@ -3,18 +3,25 @@
 /*******************************************/
 
 /* Box Model Hack */
-*{
+* {
   box-sizing: border-box;
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-img{
+
+body {
+  text-align: center;
+  margin: 4rem 0;
+  background-color: darkkhaki;
+  margin: 4rem;
+}
+
+img {
   display: block;
   margin: 0 auto;
 }
-
 
 /******************************************
 /* ADDITIONAL STYLES
